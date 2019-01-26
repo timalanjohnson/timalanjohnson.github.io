@@ -1,0 +1,41 @@
+/*
+ * SITE LAYOUT
+ *
+ */
+
+html {
+    height:100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	height:auto !important;
+	min-height:100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+}
+
+body > * {
+	padding: 2em;
+}
+
+.site-header {
+	padding-bottom: 0;
+}
+
+.page-content {
+	
+}
+
+.site-footer {
+	background: $concrete;
+}
+
+.wrapper {
+	max-width: 1140px;
+	margin: auto;
+}

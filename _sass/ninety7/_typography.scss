@@ -1,0 +1,51 @@
+/*
+ * Typography
+ *
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Lora:400,700|Open+Sans:400,700');
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	font-weight: 400;
+    color: $black;
+}
+
+
+h1, h2, h3, h4, h5, h6, strong {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+pre {
+	font-family: 'Fira Mono', monospace;
+}
+
+a {
+	text-decoration: none;
+	color: $malibu;
+}
+
+
+.post-meta {
+	color: $grey;
+	font-style: italic;
+	font-family: "Fira Mono", monospace;
+	font-size: 0.8em;
+}
+
+.post-title {
+	font-size: 2.5em;
+}
+
+.post-content {
+	font-weight: 400;
+	font-family: 'Lora', serif;
+}
+
+.site-footer {
+	font-family: "Fira Mono", monospace;
+	font-size: 0.8em;
+}
