@@ -9,20 +9,20 @@
 }
 
 .site-title {
-	color: $black;
+	color: $tangaroa;
 	font-weight: 700;
 	font-size: 1.33em;
 	align-self: center;
 	text-decoration: none;
 	padding: 0.25em 0.5em;
 	justify-self: center;
-	border: 4px solid $black;
+	border: 4px solid $tangaroa;
 	transition-timing-function: ease-in;
 	transition: .27s; 
 }
 
 .site-title:hover {
-	background: $black;
+	background: $tangaroa;
 	color: $white;
 }
 
@@ -48,13 +48,13 @@
 .page-link {
 	padding: 0.25em 0.5em;
 	text-decoration: none;
-	color: $black;
+	color: $tangaroa;
 	transition: .27s; 
 	transition-timing-function: ease-in;
 }
 
 .page-link:hover{
-	background: $black;
+	background: $tangaroa;
 	color: $white;
 }
 

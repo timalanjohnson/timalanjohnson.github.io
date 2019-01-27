@@ -27,9 +27,33 @@
 }
 
 .home .projects section {
+	color: $tangaroa;
 	background-color: $concrete;
 	padding: 1em;
 }
+
+.home .projects section:nth-child(1n){
+	background-color: $hot-pink;
+}
+
+.home .projects section:nth-child(2n){
+	background-color: $wild-watermelon;
+}
+
+.home .projects section:nth-child(3n){
+	background-color: $screamin-green;
+}
+
+.home .projects section:nth-child(4n){
+	background-color: $atomic-tangerine;
+}
+
+.home .projects section a{
+	color: $tangaroa;
+	padding-bottom: 0.25em;
+	border-bottom: 4px solid $tangaroa;
+}
+
 
 
 @media only screen and (min-width: 640px) {

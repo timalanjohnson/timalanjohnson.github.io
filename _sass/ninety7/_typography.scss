@@ -8,7 +8,7 @@
 html {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5em;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 400;
     color: $black;
 }
@@ -45,6 +45,7 @@ a:hover {
 .post-title {
 	font-size: 2.5em;
 	line-height: 1.5em;
+	margin: 0 0 0.5em 0;
 }
 
 .post-content {
@@ -53,15 +54,21 @@ a:hover {
 }
 
 .site-footer {
-	color: $grey;
+	color: $silver-chalice;
 	font-family: "Fira Mono", monospace;
 	font-size: 0.8em;
 }
 
 .site-footer a {
-	color: $grey;
+	color: $silver-chalice;
 }
 
 .site-footer a:hover {
-	color: $concrete;
+	color: $mustard;
+}
+
+@media only screen and (min-width: 480px) {
+	html {
+		font-size: 1.2em;
+	}
 }
