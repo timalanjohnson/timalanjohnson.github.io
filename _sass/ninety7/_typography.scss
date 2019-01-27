@@ -25,7 +25,13 @@ pre {
 
 a {
 	text-decoration: none;
+	transition-timing-function: ease-in;
+	transition: .27s; 
 	color: $malibu;
+}
+
+a:hover {
+	color: $dodger-blue;
 }
 
 
@@ -39,7 +45,6 @@ a {
 .post-title {
 	font-size: 2.5em;
 	line-height: 1.5em;
-	border-bottom: 1px solid $grey; 
 }
 
 .post-content {
@@ -48,6 +53,15 @@ a {
 }
 
 .site-footer {
+	color: $grey;
 	font-family: "Fira Mono", monospace;
 	font-size: 0.8em;
+}
+
+.site-footer a {
+	color: $grey;
+}
+
+.site-footer a:hover {
+	color: $concrete;
 }
