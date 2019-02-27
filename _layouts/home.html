@@ -1,34 +1,57 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<article class="home">
-  
-	<section class="bio">
-	
-		<h1 class="post-title">Hello.</h1>
+  {%- include head.html -%}
 
-		<p>I'm Tim. Web developer, student, and photographer from Cape Town, South Africa. Let's create. Send me an <a href="mailto:timjohnson.za@gmail.com">email</a>. You can also find me on <a href="https://instagram.com/timalanjohnson">Instagram</a> and <a href="https://twitter.com/timalanjohnson">Twitter</a>.</p>
+  <body>
 
-		<p>Below you can find some of the things I do.</p>
-	
-	</section>
-  
-	<section class="profile">
-		<img src="../assets/images/me.jpg">
-	</section>
+    <main class="page-content" aria-label="Content">
+		<article class="home">
 
-	<section class="projects wrapper"> 
+			<section class="bio">
 
-		<section>
-			<h3><a href="https://unsplash.com/@timalanjohnson">Free Stock Images</a></h3>
-			<p>A selection of photographs that I have shared on Unsplash.</p>
-		</section>
+				<h1 class="post-title">Hello.</h1>
 
-		<section>
-			<h3><a href="/blog/">Blog</a></h3>
-			<p>Sometimes I write some words about things.</p>			
-		</section>
+				<p>I'm Tim. Web developer, student, and photographer from <strong>Cape Town, South Africa</strong>. Let's create. Send me an <a href="mailto:timjohnson.za@gmail.com">email</a>. You can also find me on <a href="https://instagram.com/timalanjohnson">Instagram</a> and <a href="https://twitter.com/timalanjohnson">Twitter</a>.</p>
 
-	</section>
-</article>
+				<p><strong>Below</strong> you can find some of the things I do.</p>
+
+			</section>
+
+			<section class="profile">
+				<img src="../assets/images/me_alt.jpg">
+			</section>
+
+			<section class="projects wrapper"> 
+
+				<section>
+					<h3><a href="https://unsplash.com/@timalanjohnson">Free Stock Images</a></h3>
+					<p>Photographs that I have shared on Unsplash, for free.</p>
+				</section>
+
+				<section>
+					<h3><a href="/blog/">Blog</a></h3>
+					<p>Essays, photo essays, and photos.</p>			
+				</section>
+
+				<section>
+					<h3><a href="/portfolio/">Photography Portfolio</a></h3>
+					<p>A collection of my favourite images that I have made.</p>			
+				</section>
+
+				<section>
+					<h3><a href="/contact/">Contact</a></h3>
+					<p>Contact me on my email <a href="mailto:timjohnson.za@gmail.com">timjohnson.za@gmail.com</a></p>			
+				</section>
+
+			</section>
+		</article>
+
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+
