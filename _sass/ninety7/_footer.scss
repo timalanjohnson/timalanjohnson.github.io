@@ -13,6 +13,10 @@
 	display: grid;
 }
 
+.footer-heading a{
+	color: $mustard !important;
+}
+
 .contact-list {
 	justify-self: center;
 	align-self: flex-end;
