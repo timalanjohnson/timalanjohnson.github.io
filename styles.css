@@ -1,0 +1,257 @@
+/*
+ *	Global
+ */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700i,800&display=swap');
+
+html {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2em;
+	background: #f2f2f2;
+	background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 29%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
+	color: #1f2430;
+}
+
+body {
+	margin: auto;
+	display: grid;
+	min-height: 100vh;
+	max-width: 1440px;
+}
+
+body > * {
+	padding: 48px 72px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 3em;
+	font-weight: 800;
+}
+
+a {
+	color: #5ccfe6;
+	text-decoration: none;
+}
+
+.accent {
+	color: #5ccfe6;
+	font-family: 'Nunito', sans-serif;
+	text-shadow: 4px 4px #ffcc66;
+	transition: 0.33s;
+}
+
+.accent:hover {
+	text-shadow: -4px -4px #ffcc66;
+}
+
+/*
+ *	Header
+ */
+
+header {
+	align-self: flex-start;
+}
+
+header > .accent {
+	margin-top: 0;
+	font-size: 2em;
+}
+
+.logo {
+	font-style: italic;
+	font-weight: 700;
+}
+
+/*
+ *	Main
+ */
+
+main {
+	align-self: center;
+}
+
+main > article {
+	display: grid;
+	grid-template-columns: 400px 72px 1fr;
+}
+
+.profile-image {
+	width: 100%;
+	align-self: center;
+	border-radius: 100%;
+	position: relative;
+	transition: 0.33s;
+	background: linear-gradient(135deg, #ffcc66, #5ccfe6);
+	padding: 8px;
+	grid-column: 1 / 2;
+	grid-row: 1 / 4;
+}
+
+.profile-image:hover {
+	background: linear-gradient(325deg, #ffcc66, #5ccfe6);
+}
+
+.title {
+	margin: 0;
+	line-height: 1.5em;
+	grid-column: 3 / -1;
+}
+
+.bio {
+	line-height: 2em;
+	grid-column: 3 / -1;
+	font-family: 'Nunito', sans-serif;
+}
+
+.call-to-action {
+	grid-column: 3 / -1;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(140px, 140px));
+	grid-gap: 16px;
+}
+
+.call-to-action-button {
+	border-radius: 4px;
+	align-self: center;
+	justify-self: left;
+	background: #5ccfe6;
+	padding: 16px;
+	box-shadow: 4px 4px #ffcc66;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #1f2430;
+}
+
+.call-to-action-button:hover {
+	cursor: pointer;
+	box-shadow: -4px -4px #ffcc66;
+	transition: 0.33s;
+}
+
+.button-icon {
+	margin-bottom: -6px;
+	margin-right: 8px;
+}
+
+/*
+ *	Footer
+ */
+
+footer {
+	align-self: flex-end;
+}
+
+footer > ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+footer > ul > li {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 700;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+footer > ul > li:not(:last-child) {
+	margin-right: 16px;
+	padding-right: 16px;
+}
+
+@media only screen and (max-width: 1366px) {
+	
+	html {
+		background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 24%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
+	}
+
+	main > article {
+		grid-template-columns: 300px 72px 1fr;
+	}
+
+}
+
+@media only screen and (max-width: 960px) {
+	
+	html {
+		background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 83%, rgba(149, 230, 203, 0.25) 83%, rgba(149, 230, 203, 0.25) 100%);
+	}
+
+	main > article {
+		grid-template-columns: 200px 72px 1fr;
+	}
+
+	.profile-image {
+		grid-row: 1;
+		grid-column: 1 / 2;
+	}
+
+	.title {
+		grid-row: 1;
+		grid-column: 3 / -1;
+		align-self: center;
+	}
+
+	.bio {
+		grid-row: 2;
+		grid-column: 1 / -1;
+	}
+
+	.call-to-action {
+		grid-row: 3;
+		grid-column: 1 / -1;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	
+	html {
+		background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 81%, rgba(149, 230, 203, 0.25) 81%, rgba(149, 230, 203, 0.25) 100%);
+	}
+	
+	body > * {
+		padding: 24px 32px;
+	}
+
+	main > article {
+		grid-template-columns: 1fr;
+	}
+
+	.profile-image {
+		grid-column: 1 / -1;
+		grid-row: 1;
+		width: 50%;
+		margin: 2em auto;
+	}
+
+	.title {
+		grid-column: 1 / -1;
+		grid-row: 2;
+	}
+
+	.bio {
+		grid-column: 1 / -1;
+		grid-row: 3;
+	}
+
+	.call-to-action {
+		grid-column: 1 / -1;
+		grid-row: 4;
+	}
+
+	footer > ul {
+		display: block;
+	}
+}
+
+/*
+ *	Colours
+ * 	Grey: 			989a99;rgba(152, 154, 153, 1)
+ * 	Grey 2: 		95e6cb;rgba(149, 230, 203, 1)
+ *	Dark blue-grey: 1f2430;rgba(31, 36, 48, 1)
+ * 	Dark blue-grey2:414b64;rgba(65, 75, 100, 1)
+ *	Light blue: 	5ccfe6;rgba(92, 207, 230, 1)
+ *	Yellow:			ffcc66;rgba(255, 204, 102, 1)
+ *	Red: 			f29e74;rgba(242, 158, 116, 1)
+ */
