@@ -5,9 +5,9 @@
 
 html {
 	font-family: 'Nunito', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.33em;
 	background: #f2f2f2;
-	background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 29%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
+	background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 26%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
 	color: #1f2430;
 }
 
@@ -51,14 +51,11 @@ header {
 	align-self: flex-start;
 }
 
-header > .accent {
-	margin-top: 0;
-	font-size: 2em;
-}
-
 .logo {
 	font-style: italic;
 	font-weight: 700;
+	font-size: 1.5em;
+	margin-top: 0;
 }
 
 /*
@@ -163,7 +160,7 @@ footer > ul > li:not(:last-child) {
 @media only screen and (max-width: 1366px) {
 	
 	html {
-		background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 24%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
+		background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 24%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
 	}
 
 	main > article {
@@ -175,7 +172,7 @@ footer > ul > li:not(:last-child) {
 @media only screen and (max-width: 960px) {
 	
 	html {
-		background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 83%, rgba(149, 230, 203, 0.25) 83%, rgba(149, 230, 203, 0.25) 100%);
+		background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 83%, rgba(149, 230, 203, 0.25) 83%, rgba(149, 230, 203, 0.25) 100%);
 	}
 
 	main > article {
@@ -207,7 +204,7 @@ footer > ul > li:not(:last-child) {
 @media only screen and (max-width: 680px) {
 	
 	html {
-		background: linear-gradient(187deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 81%, rgba(149, 230, 203, 0.25) 81%, rgba(149, 230, 203, 0.25) 100%);
+		background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 81%, rgba(149, 230, 203, 0.25) 81%, rgba(149, 230, 203, 0.25) 100%);
 	}
 	
 	body > * {
