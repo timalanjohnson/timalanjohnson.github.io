@@ -7,7 +7,7 @@ html {
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.33em;
 	background: #f2f2f2;
-	background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 26%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
+	background: linear-gradient(186deg, rgba(92, 207, 230, 0.125) 0%, rgba(92, 207, 230, 0.125) 26%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 75%, rgba(92, 207, 230, 0.125) 75%, rgba(92, 207, 230, 0.125) 100%);
 	color: #1f2430;
 }
 
@@ -160,7 +160,7 @@ footer > ul > li:not(:last-child) {
 @media only screen and (max-width: 1366px) {
 	
 	html {
-		background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 24%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 75%, rgba(149, 230, 203, 0.25) 75%, rgba(149, 230, 203, 0.25) 100%);
+		background: linear-gradient(186deg, rgba(92, 207, 230, 0.125) 0%, rgba(92, 207, 230, 0.125) 24%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 75%, rgba(92, 207, 230, 0.125) 75%, rgba(92, 207, 230, 0.125) 100%);
 	}
 
 	main > article {
@@ -172,7 +172,7 @@ footer > ul > li:not(:last-child) {
 @media only screen and (max-width: 960px) {
 	
 	html {
-		background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 83%, rgba(149, 230, 203, 0.25) 83%, rgba(149, 230, 203, 0.25) 100%);
+		background: linear-gradient(186deg, rgba(92, 207, 230, 0.125) 0%, rgba(92, 207, 230, 0.125) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 83%, rgba(92, 207, 230, 0.125) 83%, rgba(92, 207, 230, 0.125) 100%);
 	}
 
 	main > article {
@@ -204,7 +204,7 @@ footer > ul > li:not(:last-child) {
 @media only screen and (max-width: 680px) {
 	
 	html {
-		background: linear-gradient(186deg, rgba(149, 230, 203, 0.25) 0%, rgba(149, 230, 203, 0.25) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 78.5%, rgba(149, 230, 203, 0.25) 78.5%, rgba(149, 230, 203, 0.25) 100%);
+		background: linear-gradient(186deg, rgba(92, 207, 230, 0.125) 0%, rgba(92, 207, 230, 0.125) 18%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 78.5%, rgba(92, 207, 230, 0.125) 78.5%, rgba(92, 207, 230, 0.125) 100%);
 		font-size: 1em;
 	}
 	
