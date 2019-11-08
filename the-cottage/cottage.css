@@ -1,0 +1,44 @@
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.gallery > img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.double {
+    grid-column: span 2;
+}
+
+.triple {
+    grid-column: span 3;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.feature {
+    height: 320px !important; 
+    grid-column: 1 / -1;
+}
+
+@media only screen and (min-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .gallery > img {
+        height: 320px;
+    }
+
+    .feature {
+        height: 640px !important; 
+    }
+}

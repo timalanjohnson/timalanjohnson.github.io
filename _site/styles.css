@@ -19,6 +19,7 @@ html {
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.33em;
 	color: #1f2430;
+	background: #f7f7f7;
 }
 
 body {
@@ -54,7 +55,6 @@ a:hover{
  */
 
 header {
-	align-self: flex-start;
 	padding-top: 32px;
 }
 
@@ -71,16 +71,12 @@ main {
 	align-self: center;
 }
 
-main > article {
-
-}
-
 .title {
 	line-height: 1.5em;
 	margin-bottom: 32px;	
 }
 
-.bio {
+p {
 	line-height: 2em;
 	font-family: 'Nunito', sans-serif;
 	margin-bottom: 32px;	
@@ -98,6 +94,10 @@ main > article {
 	background:  #5ccfe6;
 	border: none;
 
+}
+
+.center {
+	text-align: center;
 }
 
 /*
