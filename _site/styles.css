@@ -118,6 +118,10 @@ article {
 		justify-self: left;
 		align-self: center;
 	}
+
+	.button {
+		width: 128px !important;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
