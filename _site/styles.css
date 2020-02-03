@@ -38,6 +38,7 @@ a:hover {
 
 h1 {
 	font-size: 2em;
+	line-height: 1.5em;
 }
 
 .profile-image {
@@ -62,6 +63,8 @@ article {
 	padding: 6px 18px;
 	border-radius: 8px;
 	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 .button:hover{
