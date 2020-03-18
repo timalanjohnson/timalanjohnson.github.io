@@ -1,0 +1,150 @@
+/*
+ *	Global
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700i,800&display=swap');
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	font-size: 1.2em;
+	color: #333333;
+	background: #f7f7f7;
+}
+
+body {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+aside {
+	justify-self: center;
+}
+
+main {
+	justify-self: center;
+}
+
+a {
+	color: royalblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: hsl(225, 73%, 47%);
+	transition: 0.2s;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+.profile-image {
+	width: 100%;
+	height: 480px;
+	object-fit: cover;
+}
+
+article {
+	max-width: 640px;
+	padding: 24px;
+}
+
+.button-group {
+	margin: 32px 0;
+}
+
+.button {
+	display: inline-block;
+	border: 2px solid royalblue;
+	width: 128px !important;
+	padding: 6px 18px;
+	border-radius: 8px;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.button:hover{
+	color: #fff;
+	border: 2px solid hsl(225, 73%, 47%);
+	background-color: hsl(225, 73%, 47%);
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+.button-primary {
+	color: #fff;
+	background-color: royalblue;
+}
+
+.social-list {
+	padding: 0;
+}
+
+.social-list li {
+	display: inline;
+}
+
+@media only screen and (min-width: 560px) {
+	.profile-image {
+		width: 320px;
+		height: 320px;
+		border-radius: 2em;
+		margin-top: 56px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.profile-image {
+		height: 360px;
+		margin-top: 0;
+	}
+
+	body {
+		grid-gap: 24px;
+		grid-template-columns: 1fr 2fr;
+		max-width: 1140px;
+		margin: auto;
+		min-height: 100vh;
+		padding: 0 32px;
+	}
+
+	aside {
+		justify-self: right;
+		align-self: center;
+	}
+
+	main {
+		justify-self: left;
+		align-self: center;
+	}
+
+	.button {
+		width: 128px !important;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.profile-image {
+		width: 480px;
+		height: 100%;
+		border-radius: 2em;
+		margin-top: 0;
+	}
+
+	body {
+		grid-gap: 48px;
+	}
+
+	aside {
+		align-self: center;
+	}
+
+	main {
+		align-self: center;
+	}
+
+}
